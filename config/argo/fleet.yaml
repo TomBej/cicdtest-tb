@@ -1,5 +1,5 @@
 defaultNamespace: fleet-default
-namespace:  argo-system-tb
+#namespace:  argo-system-tb
 
 helm:
   releaseName: argo-cd
