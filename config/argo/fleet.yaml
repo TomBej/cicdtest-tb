@@ -3,5 +3,5 @@ namespace:  argo-system-tb
 
 helm:
   releaseName: argo-cd
-  chart: argo-cd
-  repo: https://github.com/argoproj/argo-helm
+  chart: ./argo-cd
+  repo: https://github.com/argoproj/argo-helm/charts
