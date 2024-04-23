@@ -5,3 +5,4 @@ helm:
   releaseName: argo-cd
   chart: ./charts/argo-cd
   repo: https://github.com/argoproj/argo-helm
+  version:  6.7.14
