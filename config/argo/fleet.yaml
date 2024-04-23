@@ -1,4 +1,4 @@
-defaultNamespace: fleet-default
+defaultNamespace: default
 #namespace:  argo-system-tb
 
 helm:
