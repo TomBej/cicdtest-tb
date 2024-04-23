@@ -1,8 +1,17 @@
-defaultNamespace: cicdtest-tb
+#defaultNamespace: cicdtest-tb
 #namespace:  argo-system-tb
 
-helm:
-  releaseName: argo-cd
-  chart: https://github.com/argoproj/argo-helm/releases/download/argo-cd-6.7.14/argo-cd-6.7.14.tgz
+#helm:
+  #releaseName: argo-cd
+  #chart: https://github.com/argoproj/argo-helm/releases/download/argo-cd-6.7.14/argo-cd-6.7.14.tgz
   #repo: https://github.com/argoproj/argo-helm
   #version:  6.7.14
+
+defaultNamespace: cert-manager
+helm:
+  repo: https://charts.jetstack.io
+  releaseName: cert-manager
+  chart: cert-manager
+  values:
+    namespace: cert-manager
+    installCRDs: true
