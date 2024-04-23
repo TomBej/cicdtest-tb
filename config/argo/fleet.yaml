@@ -1,4 +1,4 @@
-defaultNamespace: fleet-default
+defaultNamespace: cicdtest-tb
 #namespace:  argo-system-tb
 
 helm:
