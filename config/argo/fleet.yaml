@@ -2,7 +2,7 @@ defaultNamespace: fleet-default
 namespace:  argo-system-tb
 
 helm:
-  #releaseName: argo-cd
+  releaseName: argo-cd
   chart: https://github.com/argoproj/argo-helm/releases/download/argo-cd-6.7.14/argo-cd-6.7.14.tgz
   #repo: https://github.com/argoproj/argo-helm
   #version:  6.7.14
