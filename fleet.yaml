@@ -1,4 +1,4 @@
-defaultNamespace: argocd
+defaultNamespace: argocd-test
 helm:
   releaseName: argocd
   chart: argo-cd
