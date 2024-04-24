@@ -1,7 +1,6 @@
-defaultNamespace: cicdtest-tb
-#namespace:  argo-system-tb
-
+defaultNamespace: argo-system
 helm:
-  releaseName: argo-cd
-  chart: ./argo-cd
-  repo: https://github.com/argoproj/argo-helm/charts
+  releaseName: argo
+  chart: argo-cd
+  repo: https://argoproj.github.io/argo-helm 
+  version: 6.7.14
