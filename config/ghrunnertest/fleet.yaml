@@ -3,4 +3,4 @@ helm:
   releaseName: actions-runner-controller
   chart: ./charts//actions-runner-controller
   repo: git:https://github.com/actions/actions-runner-controller
-  #version: 6.7.13
+  version: 0.23.7
