@@ -1,4 +1,4 @@
-defaultNamespace: ghrunners-test
+#defaultNamespace: ghrunners-test
 helm:
   #releaseName: actions-runner-controller
   chart: https://github.com/actions/actions-runner-controller/charts/actions-runner-controller
