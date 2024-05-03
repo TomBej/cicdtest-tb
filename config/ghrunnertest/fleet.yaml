@@ -5,3 +5,4 @@ Helm:
      - charts/gha-runner-scale-set-controller
      - charts/gha-runner-scale-set
   repo: https://github.com/actions/actions-runner-controller
+  namespace: ghr-namespace
