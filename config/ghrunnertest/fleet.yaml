@@ -1,4 +1,5 @@
 defaultNamespace: ghrunners-test
+Helm:  
   paths:
      - charts/actions-runner-controller
      - charts/gha-runner-scale-set-controller
