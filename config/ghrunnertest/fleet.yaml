@@ -1,6 +1,6 @@
-#defaultNamespace: ghrunners-test
-helm:
-  #releaseName: actions-runner-controller
-  chart: actions-runner-controller
-  repo: https://github.com/actions/actions-runner-controller/charts
-  version: 0.23.7
+defaultNamespace: ghrunners-test
+  paths:
+     - charts/actions-runner-controller
+     - charts/gha-runner-scale-set-controller
+     - charts/gha-runner-scale-set
+  repo: https://github.com/actions/actions-runner-controller
