@@ -1,5 +1,5 @@
 defaultNamespace: ghrunners-test
-helm:
+#helm:
   releaseName: actions-runner-controller
   chart: ./charts
   repo: git:https://github.com/actions/actions-runner-controller
