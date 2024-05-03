@@ -1,6 +1,6 @@
 defaultNamespace: ghrunners-test
 Helm:  
-  chart:
+  charts:
      - charts/actions-runner-controller
      - charts/gha-runner-scale-set-controller
      - charts/gha-runner-scale-set
