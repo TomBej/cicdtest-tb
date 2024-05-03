@@ -1,1 +1,6 @@
-
+defaultNamespace: ghrunners-test
+helm:
+  releaseName: actions-runner-controller
+  chart: ./charts/actions-runner-controller
+  repo: https://github.com/actions/actions-runner-controller
+  #version: 6.7.13
