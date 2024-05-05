@@ -1,8 +1,4 @@
 defaultNamespace: ghrunners-test
 Helm:  
-  charts:
-     - charts/actions-runner-controller
-     - charts/gha-runner-scale-set-controller
-     - charts/gha-runner-scale-set
-  repo: https://github.com/actions/actions-runner-controller
+  chart: https://github.com/actions/runner/releases/download/v2.316.1/actions-runner-linux-x64-2.316.1.tar.gz
   namespace: ghr-namespace
