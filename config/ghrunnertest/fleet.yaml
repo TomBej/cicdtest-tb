@@ -1,5 +1,5 @@
 defaultNamespace: ghrunners-test
 Helm:  
-  chart: arc
-  repo:  oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller
-  namespace: ghr-namespace
+  chart: actions-runner-controller
+  repo:  https://actions-runner-controller.github.io/actions-runner-controller
+  namespace: actions-runner-controller
