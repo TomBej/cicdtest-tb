@@ -1,4 +1,4 @@
-defaultNamespace: ghrunners-test
+#defaultNamespace: ghrunners-test
 Helm:  
   chart: actions-runner-controller
   repo:  https://actions-runner-controller.github.io/actions-runner-controller
