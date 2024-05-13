@@ -1,4 +1,4 @@
-defaultNamespace: actions-runner-controller
+defaultNamespace: actions-runner-system
 Helm:  
   chart: actions-runner-controller
   repo:  https://actions-runner-controller.github.io/actions-runner-controller
