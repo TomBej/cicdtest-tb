@@ -7,4 +7,4 @@ spec:
   replicas: 1
   template:
     spec:
-      repository: https://git.evry.cloud/dds/infra-bix-config
+      repository: https://github.com/TomBej/cicdtest-tb
